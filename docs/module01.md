@@ -40,8 +40,8 @@ Done for each feature or task:
 - Integration points
 - Task-specific rules
 
-### Step 2: Create a structured plan with the "componenets of context engineering"
-![components-context-engineering](img/components-context-engineering.png)
+### Step 2: Create a structured plan with the components of context engineering
+![Components of context engineering](./img/components-context-engineering.png)
 
 The goal is to produce a detailed plan of attack for the AI coding assistant based on your conversation and planning work.
 
@@ -72,7 +72,7 @@ Trust, but verify.
     - Compare outcomes against your success criteria
     - Confirm integrations behave as expected
 
-![validate-the-produced-code](img/validate-the-produced-code.png)
+![Validate the produced code](./img/validate-the-produced-code.png)
 
 ### Step 4: Iterate
 
@@ -83,3 +83,28 @@ Use validation results to refine the plan and repeat the cycle:
 4. Re-validate until the feature is complete
 
 
+## The AI Coding System Gap
+
+> How can AI coding assistants be simultaneously extremely capable and still disappointing for many developers?
+
+
+### Example: Same request, different outcomes
+
+```mermaid
+flowchart TD
+    C[👤 Customer request:<br/>Build a filter feature for a product catalog]
+
+    C --> D1
+    C --> D2
+
+    subgraph S1[Path A]
+        D1[👨‍💻 Developer 1<br/>using Claude Code]
+        D1 --> O1[30 minutes<br/>Feature works, but:<br/>- Over-engineered solution<br/>- No testing<br/>- Awkward UI<br/>- No documentation]
+        O1 --> R1[All fit to the developer's specification]
+    end
+
+    subgraph S2[Path B]
+        D2[👩‍💻 Developer 2<br/>using Claude Code]
+        D2 --> O2[10 minutes<br/>Feature works with:<br/>- Simple code<br/>- Complete testing<br/>- Clean UI<br/>- Documented code]
+    end
+```
