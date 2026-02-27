@@ -108,3 +108,22 @@ flowchart TD
         D2 --> O2[10 minutes<br/>Feature works with:<br/>- Simple code<br/>- Complete testing<br/>- Clean UI<br/>- Documented code]
     end
 ```
+
+### What is the difference?
+
+The difference is setup and skill gap, also known as the system gap.
+
+Developer 2 invested time in setting up AI for success with a repeatable, reliable workflow and developed a deep understanding of the tools. That is the gap.
+
+### The Paradox
+- 90% of developers are using AI coding tools.
+- But 46% actively distrust the accuracy.
+- Average code acceptance is 30%.
+- Top users achieve 88% code acceptance.
+
+### How is this possible?
+
+It is rarely a problem with the AI coding assistant itself. The bigger issue is how the tool is used: your system.
+
+- Most people dive straight into implementation without understanding their tools or setting up AI for success with a clear system.
+- Top performers spend time investing in setup, workflow quality, and repeatable execution.
