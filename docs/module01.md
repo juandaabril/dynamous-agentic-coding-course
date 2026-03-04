@@ -2,9 +2,9 @@
 
 > Capabilities, not tools. Learning the basics of AI coding tools is great, and we will cover that. But the real value is learning how to create your own systematic approach to using an AI coding assistant that is reliable and repeatable.
 
-## How to develop your own AI coding workflows
+## How to Develop Your Own AI Coding Workflows
 
-### Primary mental model for AI coding
+### Primary Mental Model for AI Coding
 
 1. Planning
 2. Implementation
@@ -88,7 +88,7 @@ Use validation results to refine the plan and repeat the cycle:
 > How can AI coding assistants be simultaneously extremely capable and still disappointing for many developers?
 
 
-### Example: Same request, different outcomes
+### Example: Same Request, Different Outcomes
 
 ```mermaid
 flowchart TD
@@ -100,7 +100,7 @@ flowchart TD
     subgraph S1[Path A]
         D1[👨‍💻 Developer 1<br/>using Claude Code]
         D1 --> O1[30 minutes<br/>Feature works, but:<br/>- Over-engineered solution<br/>- No testing<br/>- Awkward UI<br/>- No documentation]
-        O1 --> R1[All fit to the developer's specification]
+        O1 --> R1[All aligned with the developer's specification]
     end
 
     subgraph S2[Path B]
@@ -111,13 +111,13 @@ flowchart TD
 
 ### What is the difference?
 
-The difference is setup and skill gap, also known as the system gap.
+The difference is a setup and skill gap, also known as the system gap.
 
 Developer 2 invested time in setting up AI for success with a repeatable, reliable workflow and developed a deep understanding of the tools. That is the gap.
 
 ### The Paradox
 - 90% of developers are using AI coding tools.
-- But 46% actively distrust the accuracy.
+- But 46% actively distrust AI accuracy.
 - Average code acceptance is 30%.
 - Top users achieve 88% code acceptance.
 
@@ -126,4 +126,4 @@ Developer 2 invested time in setting up AI for success with a repeatable, reliab
 It is rarely a problem with the AI coding assistant itself. The bigger issue is how the tool is used: your system.
 
 - Most people dive straight into implementation without understanding their tools or setting up AI for success with a clear system.
-- Top performers spend time investing in setup, workflow quality, and repeatable execution.
+- Top performers invest in setup, workflow quality, and repeatable execution.
