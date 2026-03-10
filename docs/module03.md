@@ -88,14 +88,6 @@ This is your global rules
 - Highest level info
 - For every session
 
-**Layer 2 - Task Planning**
-(done for each feature/task)
-
-- Codebase analysis
-- Documentation analysis
-- Integration points
-- Task specific rules
-
 **Loading Strategy #2 - As Needed**
 Documents used by your system
 
@@ -103,3 +95,26 @@ Documents used by your system
 - Still changes very rarely
 - More specific instructions
 - For specific task types
+
+
+## Example Global Rules
+
+### Tech Stack
+Our tech stack is Python, Postgres for data, Pydantic AI for the agent framework
+
+### Architecture
+Single AI agent with tools for searching Obsidian files, managing folders
+
+### Testing Requirements
+All features need to be unit and integration tested with pytest
+
+### Logging Requirements
+For logging we have this structure....
+
+
+## Example "As Needed Document"
+### How to build tools into our AI agent (building tools = task type)
+
+- When creating tools, add them to the tool repository
+- Create docstrings for tools no longer than 500 characters
+- Each tool should serve a very unique purpose for the agent
